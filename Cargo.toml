@@ -1,0 +1,8 @@
+[package]
+name = "pq_csv"
+version = "0.1.0"
+authors = ["Chen Weiguang <chen.weiguang@gmail.com>"]
+
+[dependencies]
+csv = "=1.0.0-beta.5"
+parquet = { git = "https://github.com/guangie88/parquet-rs.git", rev = "f7f3570" }
